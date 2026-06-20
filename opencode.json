@@ -1,15 +1,19 @@
-
 {
   "instructions": [
     { "file": "AGENTS.md" }
   ],
   "mcp": {
-    "privacy-agent": {
+    "Privacy-Agent": {
       "type": "local",
       "command": ["python", "mcp-servers/privacy-agent/server.py"],
       "enabled": true
     },
-    "cyber-agent": {
+    "Fairness-Agent": {
+      "type": "local",
+      "command": ["python", "mcp-servers/fairness-agent/server.py"],
+      "enabled": true
+    },
+    "Cyber-Agent": {
       "type": "local",
       "command": ["python", "mcp-servers/cyber-agent/server.py"],
       "enabled": true
