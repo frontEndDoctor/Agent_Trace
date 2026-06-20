@@ -18,5 +18,10 @@
       "command": ["python", "mcp-servers/cyber-agent/server.py"],
       "enabled": true
     }
-  }
+  },
+    "runtime-monitor": {
+    "type": "local",
+    "command": ["python", "mcp-servers/cyber-agent/runtime_monitor.py"],
+    "enabled": true
+}
 }
