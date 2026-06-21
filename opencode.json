@@ -5,23 +5,23 @@
   "mcp": {
     "Privacy-Agent": {
       "type": "local",
-      "command": ["python", "mcp-servers/privacy-agent/server.py"],
+      "command": ["python", "mcp-servers/privacy_agent/server.py"],
       "enabled": true
     },
     "Fairness-Agent": {
       "type": "local",
-      "command": ["python", "mcp-servers/fairness-agent/server.py"],
+      "command": ["python", "mcp-servers/fairness_agent/server.py"],
       "enabled": true
     },
     "Cyber-Agent": {
       "type": "local",
-      "command": ["python", "mcp-servers/cyber-agent/server.py"],
+      "command": ["python", "mcp-servers/cyber_agent/server.py"],
       "enabled": true
     }
   },
     "runtime-monitor": {
     "type": "local",
-    "command": ["python", "mcp-servers/cyber-agent/runtime_monitor.py"],
+    "command": ["python", "mcp-servers/cyber_agent/runtime_monitor.py"],
     "enabled": true
 }
 }
