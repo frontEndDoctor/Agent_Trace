@@ -23,5 +23,10 @@
     "type": "local",
     "command": ["python", "mcp-servers/cyber_agent/runtime_monitor.py"],
     "enabled": true
-}
+},
+    "Audit-Agent": {
+      "type": "local",
+      "command": ["python", "mcp-servers/audit_log/audit_agent.py"],
+      "enabled": true
+    }
 }
