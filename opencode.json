@@ -1,6 +1,7 @@
 {
+  "$schema": "https://opencode.ai/config.json",
   "instructions": [
-    { "file": "AGENTS.md" }
+    "/Users/mac/UN Digital Peacekeepers/un-digital-peacekeepers/AGENTS.md"
   ],
   "mcp": {
     "Privacy-Agent": {
@@ -17,16 +18,17 @@
       "type": "local",
       "command": ["python", "mcp-servers/cyber_agent/server.py"],
       "enabled": true
-    }
-  },
-    "runtime-monitor": {
+    },
+        "Audit-Trail": {
     "type": "local",
-    "command": ["python", "mcp-servers/cyber_agent/runtime_monitor.py"],
+    "command": ["python", "mcp-servers/audit_log/server.py"],
     "enabled": true
 },
-    "Audit-Agent": {
+    "Runtime Guardrails": {
       "type": "local",
-      "command": ["python", "mcp-servers/audit_log/audit_agent.py"],
+      "command": ["python", "mcp-servers/cyber_agent/runtime_guardrails.py"],
       "enabled": true
     }
+  }
+
 }

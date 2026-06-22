@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("Audit Agent")
+mcp = FastMCP("Audit Log")
 
 @mcp.tool()
 def append_to_audit_log(risk_flagged: str, developer_choice: str, rationale: str) -> str:
