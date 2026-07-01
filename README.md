@@ -1,4 +1,4 @@
-# 🕊️ UN Digital Peacekeepers (UNDPK) - AI Governance Orchestrator (v2)
+# 🕊️ UN Digital Peacekeepers (UNDPK) - AI Governance Orchestrator (Agent_Trace)
 
 ![UN Digital Peacekeepers](https://img.shields.io/badge/AI%20Governance-Enterprise-blue) ![Protocol](https://img.shields.io/badge/Protocol-MCP-green) ![Compliance](https://img.shields.io/badge/Compliance-EU%20AI%20Act%20%7C%20AESIA-orange) ![Challenge](https://img.shields.io/badge/SpainGov-UN%20Tech%20Over%202026-purple)
 
